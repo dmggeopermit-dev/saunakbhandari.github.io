@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%AA%A8%3C/text%3E%3C/svg%3E">
+<title>Saunak Bhandari — Structural Geologist &amp; Geoscientist</title>
+<meta name="description" content="Portfolio of Saunak Bhandari, PhD — structural geologist, mineral exploration and opencast mining specialist, researcher in Himalayan tectonics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Comfortaa:wght@400;700&family=Arimo:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+:root{
+  --bg:#EDEDED; --bg-alt:#E2E2E2; --ink:#1B2130; --ink-soft:#55565C;
+  --line:#5FB3BD; --accent:#4C8F96; --accent-ink:#fff; --teal:#3F7F85;
+  --card:#FFFFFF; --shadow:0 1px 0 rgba(27,33,48,.06);
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#151A22; --bg-alt:#1B2130; --ink:#EDEDED; --ink-soft:#A9B4B8;
+    --line:#3F7F85; --accent:#5FB3BD; --teal:#7FD1D6; --card:#1E2530; --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#151A22; --bg-alt:#1B2130; --ink:#EDEDED; --ink-soft:#A9B4B8;
+  --line:#3F7F85; --accent:#5FB3BD; --teal:#7FD1D6; --card:#1E2530; --shadow:none;
+}
+html{scroll-behavior:smooth; scroll-padding-top:calc(72px + env(safe-area-inset-top,0px));}
+body{background:var(--bg); color:var(--ink); font-family:'Arimo',Arial,sans-serif; transition:background .25s,color .25s;}
+h1,h2,h3,.serif{font-family:'Changa One',cursive; text-transform:uppercase; letter-spacing:.01em;}
+.mono{font-family:'Comfortaa',sans-serif; letter-spacing:.06em;}
+.card{background:var(--card); border:2px solid var(--line); border-radius:8px; box-shadow:var(--shadow);}
+.strata{height:6px; background:repeating-linear-gradient(90deg,var(--accent) 0 50%,var(--ink) 50% 100%); background-size:34px 6px; opacity:.9;}
+.nav-link{position:relative; padding-bottom:3px;}
+.nav-link::after{content:"";position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--accent);transition:width .2s;}
+.nav-link:hover::after,.nav-link.active::after{width:100%;}
+.tl-item{position:relative; padding-left:2rem; border-left:2px solid var(--line);}
+.tl-item::before{content:"";position:absolute;left:-7px;top:.4rem;width:12px;height:12px;border-radius:50%;background:var(--accent);border:2px solid var(--bg);}
+.reveal{opacity:0; transform:translateY(14px); transition:opacity .5s ease,transform .5s ease;}
+.reveal.in{opacity:1; transform:none;}
+.bar-track{background:var(--line); border-radius:4px; overflow:hidden; height:8px;}
+.bar-fill{background:linear-gradient(90deg,var(--teal),var(--accent)); height:100%; width:0; transition:width 1s ease;}
+input,textarea,select{background:var(--bg-alt); border:1px solid var(--line); color:var(--ink);}
+input:focus,textarea:focus,select:focus,button:focus-visible,a:focus-visible{outline:2px solid var(--teal); outline-offset:2px;}
+::selection{background:var(--accent); color:#fff;}
+@media (prefers-reduced-motion: reduce){*{animation:none!important; transition:none!important;}}
+.tag{border:1px solid var(--line); font-size:.72rem;}
+.tag.active{background:var(--accent); color:#fff; border-color:var(--accent);}
+[data-tab]{display:none;}
+</style>
+</head>
+<body class="antialiased">
+<a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-[var(--accent)] focus:text-white focus:px-3 focus:py-2 focus:rounded">Skip to content</a>
+
+<header class="fixed top-0 inset-x-0 z-50" style="padding-top:env(safe-area-inset-top,0px);background:#1B2130;">
+  <div class="max-w-6xl mx-auto flex items-center justify-between px-5 h-16">
+    <a href="#main" class="serif text-lg font-medium" style="color:#fff">Saunak Bhandari</a>
+    <nav class="hidden md:flex gap-6 text-sm" id="desktopNav" style="color:#fff"></nav>
+    <div class="flex items-center gap-3">
+      <button id="themeBtn" aria-label="Toggle dark mode" class="w-9 h-9 rounded-full border grid place-items-center" style="border-color:var(--teal); color:#fff">🌓</button>
+      <button id="menuBtn" class="md:hidden w-9 h-9 rounded-full border grid place-items-center" style="border-color:var(--teal); color:#fff" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+  <nav id="mobileNav" class="md:hidden hidden flex-col px-5 pb-4 gap-3 text-sm" style="background:#1B2130; color:#fff"></nav>
+</header>
+<div class="strata mt-16"></div>
+
+<main id="main">
+<!-- HERO -->
+<section data-tab="home" class="max-w-6xl mx-auto px-5 pt-12 pb-14">
+  <div class="card rounded-lg p-6 sm:p-10 grid md:grid-cols-[auto_1fr] gap-8 items-center">
+    <div class="w-40 h-40 sm:w-48 sm:h-48 rounded-full grid place-items-center serif text-5xl mx-auto" style="background:linear-gradient(150deg,var(--teal),var(--accent)); color:#fff">SB</div>
+    <div>
+      <p class="mono text-xs tracking-wide" style="color:var(--teal)">Kathmandu, Nepal</p>
+      <h1 class="serif text-3xl sm:text-4xl leading-tight mt-2">Structural geologist reading ten years of rock into decisions on the ground.</h1>
+      <p class="mt-4 max-w-lg" style="color:var(--ink-soft)">PhD in Structural Geology (Chinese Academy of Sciences) working across Himalayan tectonics, mineral exploration, opencast mining and public mineral-resource governance in Nepal.</p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="#contact" class="px-5 py-3 rounded text-sm font-medium" style="background:var(--accent); color:#fff">Get in touch</a>
+        <a href="#projects" class="px-5 py-3 rounded text-sm font-medium border-2" style="border-color:var(--line)">View projects</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-tab="home" class="max-w-6xl mx-auto px-5 pb-16 grid grid-cols-2 sm:grid-cols-4 gap-4" id="stats"></section>
+
+<!-- ABOUT -->
+<section data-tab="home" id="about" class="max-w-6xl mx-auto px-5 py-16 border-t" style="border-color:var(--line)">
+  <h2 class="serif text-3xl reveal">About</h2>
+  <div class="grid md:grid-cols-2 gap-10 mt-8">
+    <ul class="space-y-3 reveal" id="aboutList"></ul>
+    <div class="reveal">
+      <h3 class="serif text-xl mb-3">Languages</h3>
+      <p style="color:var(--ink-soft)">English · Nepali · Hindi · Chinese (basic)</p>
+      <h3 class="serif text-xl mt-6 mb-3">Software &amp; tools</h3>
+      <div class="space-y-3" id="skillBars"></div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION + EXPERIENCE -->
+<section data-tab="experience" id="experience" class="py-16 border-t" style="border-color:var(--line); background:var(--bg-alt)">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="serif text-3xl reveal">Education &amp; Career</h2>
+    <div class="grid md:grid-cols-2 gap-10 mt-8">
+      <div><h3 class="mono text-sm uppercase tracking-wide mb-5" style="color:var(--teal)">Education</h3><div class="space-y-6" id="eduList"></div></div>
+      <div><h3 class="mono text-sm uppercase tracking-wide mb-5" style="color:var(--teal)">Career</h3><div class="space-y-6" id="expList"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CORE COMPETENCIES -->
+<section data-tab="experience" class="max-w-6xl mx-auto px-5 py-16 border-t" style="border-color:var(--line)">
+  <h2 class="serif text-3xl reveal">Core competencies</h2>
+  <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4 mt-8" id="compGrid"></div>
+</section>
+
+<!-- PROJECTS -->
+<section data-tab="projects" id="projects" class="py-16 border-t" style="border-color:var(--line); background:var(--bg-alt)">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="serif text-3xl reveal">Projects &amp; fieldwork</h2>
+    <p class="mt-2 text-sm" style="color:var(--ink-soft)">Sample of field and technical work — filter by type or search.</p>
+    <div class="mt-6 flex flex-col md:flex-row gap-4 md:items-center md:justify-between">
+      <div class="flex flex-wrap gap-2" id="projFilters"></div>
+      <input id="projSearch" type="search" placeholder="Search projects…" aria-label="Search projects" class="px-3 py-2 rounded text-sm w-full md:w-64">
+    </div>
+    <div class="mt-8">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5" id="projGrid"></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section data-tab="research" id="research" class="max-w-6xl mx-auto px-5 py-16 border-t" style="border-color:var(--line)">
+  <h2 class="serif text-3xl reveal">Research &amp; publications</h2>
+  <input id="pubSearch" type="search" placeholder="Search publications by keyword, journal or year…" aria-label="Search publications" class="mt-6 px-3 py-2 rounded text-sm w-full md:w-96">
+  <div class="mt-6 space-y-4" id="pubList"></div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section data-tab="research" class="py-16 border-t" style="border-color:var(--line); background:var(--bg-alt)">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="serif text-3xl reveal">Achievements, memberships &amp; training</h2>
+    <div class="grid md:grid-cols-2 gap-10 mt-8">
+      <div><h3 class="mono text-sm uppercase tracking-wide mb-4" style="color:var(--teal)">Awards &amp; memberships</h3><ul class="space-y-2" id="awardList"></ul></div>
+      <div><h3 class="mono text-sm uppercase tracking-wide mb-4" style="color:var(--teal)">Professional training</h3><ul class="space-y-2" id="trainList"></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section data-tab="gallery" id="gallery" class="max-w-6xl mx-auto px-5 py-16 border-t" style="border-color:var(--line)">
+  <h2 class="serif text-3xl reveal">Field gallery</h2>
+  <p class="mt-2 text-sm" style="color:var(--ink-soft)">Add your own photos by giving each entry in the <span class="mono">gallery</span> array an image path.</p>
+  <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4 mt-8" id="galleryGrid"></div>
+</section>
+
+<!-- CONTACT -->
+<section data-tab="contact" id="contact" class="py-16 border-t" style="border-color:var(--line); background:var(--bg-alt)">
+  <div class="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-10">
+    <div>
+      <h2 class="serif text-3xl">Let's talk</h2>
+      <p class="mt-3 max-w-sm" style="color:var(--ink-soft)">Open to research collaboration, exploration and mining-technical consulting, and mineral-resource governance advisory work.</p>
+      <div class="mt-6 space-y-2 text-sm">
+        <p>📍 Kathmandu, Bagmati Province, Nepal</p>
+        <p>✉️ <a id="emailLink" href="#" class="underline"></a></p>
+      </div>
+      <div class="mt-5 flex gap-3 text-sm" id="socialLinks"></div>
+    </div>
+    <form id="contactForm" class="card rounded-lg p-6 space-y-4">
+      <div><label class="text-sm block mb-1" for="cfName">Name</label><input required id="cfName" class="w-full px-3 py-2 rounded"></div>
+      <div><label class="text-sm block mb-1" for="cfEmail">Email</label><input required type="email" id="cfEmail" class="w-full px-3 py-2 rounded"></div>
+      <div><label class="text-sm block mb-1" for="cfMsg">Message</label><textarea required id="cfMsg" rows="4" class="w-full px-3 py-2 rounded"></textarea></div>
+      <button class="px-5 py-3 rounded text-sm font-medium w-full" style="background:var(--accent); color:#fff">Send message</button>
+      <p id="cfStatus" class="text-sm" role="status" aria-live="polite"></p>
+      <p class="text-xs" style="color:var(--ink-soft)">Sending opens your email app with the message pre-filled.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="text-center py-8 text-sm" style="background:var(--accent); color:#fff">
+  <p>© <span id="yr"></span> Saunak Bhandari · Built as a static site, deployable free on GitHub Pages.</p>
+</footer>
+
+<div id="lightbox" class="fixed inset-0 z-[100] hidden grid place-items-center p-6" style="background:rgba(0,0,0,.85)" role="dialog" aria-modal="true">
+  <button id="lbClose" aria-label="Close" class="absolute top-5 right-5 text-white text-3xl leading-none">×</button>
+  <div id="lbContent" class="max-w-2xl w-full text-center"></div>
+</div>
+
+<script>
+/* ---------- SITE CONFIG: edit these ---------- */
+const CONFIG={
+  email:'your.email@example.com',
+  linkedin:'https://linkedin.com/in/your-handle',
+  researchgate:'https://researchgate.net/profile/your-handle'
+};
+const isSet=v=>v && !/your[-.]|example\.com/.test(v);
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+document.getElementById('yr').textContent=new Date().getFullYear();
+
+/* ---------- THEME ---------- */
+const themeBtn=$('#themeBtn');
+function applyTheme(t){document.documentElement.setAttribute('data-theme',t); try{localStorage.setItem('theme',t)}catch(e){}}
+try{const saved=localStorage.getItem('theme'); if(saved) applyTheme(saved);}catch(e){}
+themeBtn.onclick=()=>{const cur=document.documentElement.getAttribute('data-theme')==='dark'?'dark':(document.documentElement.getAttribute('data-theme')==='light'?'light':(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')); applyTheme(cur==='dark'?'light':'dark');};
+
+/* ---------- DATA ---------- */
+const nav=[['home','Home'],['experience','Career'],['projects','Projects'],['research','Research'],['gallery','Gallery'],['contact','Contact']];
+$('#desktopNav').innerHTML=nav.map(n=>`<a href="#${n[0]}" data-tab-link="${n[0]}" class="nav-link">${n[1]}</a>`).join('');
+$('#mobileNav').innerHTML=nav.map(n=>`<a href="#${n[0]}" data-tab-link="${n[0]}" class="nav-link py-1">${n[1]}</a>`).join('');
+$('#menuBtn').onclick=()=>{const m=$('#mobileNav'); const open=m.classList.toggle('hidden'); m.classList.toggle('flex'); $('#menuBtn').setAttribute('aria-expanded',String(!open));};
+$$('#mobileNav a').forEach(a=>a.onclick=()=>{$('#mobileNav').classList.add('hidden'); $('#mobileNav').classList.remove('flex');});
+
+function showTab(t){
+  if(!nav.some(n=>n[0]===t)) t='home';
+  $$('[data-tab]').forEach(el=>{el.style.display = el.dataset.tab===t ? (el.id==='stats'?'grid':'block') : 'none';});
+  $$('.nav-link').forEach(a=>a.classList.toggle('active', a.dataset.tabLink===t));
+  scrollTo({top:0,behavior:'instant'});
+  history.replaceState(null,'', t==='home'?'#':'#'+t);
+}
+document.addEventListener('click',e=>{
+  const a=e.target.closest('a[href^="#"]'); if(!a) return;
+  const t=a.getAttribute('href').slice(1);
+  if(nav.some(n=>n[0]===t)){ e.preventDefault(); showTab(t); }
+});
+showTab(location.hash.slice(1)||'home');
+
+const stats=[['10+','Years geo-scientific experience'],['9','Years in mineral-resource governance'],['5','Peer-reviewed publications'],['PhD','Structural Geology, CAS Beijing']];
+$('#stats').innerHTML=stats.map(s=>`<div class="card rounded-lg p-5 text-center reveal"><div class="serif text-3xl" style="color:var(--accent)">${s[0]}</div><div class="text-xs mt-1" style="color:var(--ink-soft)">${s[1]}</div></div>`).join('');
+
+const about=[
+"Skilled in geo-scientific research spanning sedimentology, metamorphism, igneous geology and structural geology.",
+"Ten years of experience in geological exploration, geological mapping and opencast mining operations.",
+"Nine years applying Government of Nepal law and regulation for mines, minerals and geo-scientific activity.",
+"Conducted metal exploration surveys using stream-sediment sampling and led feasibility studies of low-grade oolitic iron ore.",
+"Expert in public procurement of goods and consultancy services; former procurement division head, Dhaubadi Iron Company Limited.",
+"First position, M.Sc., Tribhuvan University; PhD from the Chinese Academy of Sciences with an Excellent International Student award."
+];
+$('#aboutList').innerHTML=about.map(a=>`<li class="flex gap-3"><span style="color:var(--accent)">—</span><span>${a}</span></li>`).join('');
+
+const skills=[['ArcGIS',90],['CorelDRAW',80],['Adobe Illustrator',75],['GCDkit',85],['Geoplot / Stereonet',88],['Glitter (LA-ICP-MS)',78]];
+$('#skillBars').innerHTML=skills.map(s=>`<div><div class="flex justify-between text-sm mb-1"><span>${s[0]}</span></div><div class="bar-track"><div class="bar-fill" data-w="${s[1]}"></div></div></div>`).join('');
+
+const edu=[
+["2020","PhD, Structural Geology","State Key Laboratory of Lithospheric Evolution, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing"],
+["2012","M.Sc. Geology","Central Department of Geology, Tribhuvan University, Kirtipur, Nepal — first position in class"]
+];
+$('#eduList').innerHTML=edu.map(e=>`<div class="tl-item"><div class="mono text-xs" style="color:var(--teal)">${e[0]}</div><h4 class="font-medium mt-1">${e[1]}</h4><p class="text-sm mt-1" style="color:var(--ink-soft)">${e[2]}</p></div>`).join('');
+
+const exp=[
+["2013–2022","Mines & Minerals Regulation, Government of Nepal","Implemented laws and regulation governing mines, minerals and geo-scientific activity; coordinated across government authorities."],
+["~1 yr","Procurement Division Head","Dhaubadi Iron Company Limited — led procurement of consulting services and goods; core-group member shaping business plans."],
+["2016–2020","Doctoral Researcher, Himalayan Tectonics","Chinese Academy of Sciences — detrital geochronology and provenance of the Lesser Himalaya, Nepal, within an international research team."]
+];
+$('#expList').innerHTML=exp.map(e=>`<div class="tl-item"><div class="mono text-xs" style="color:var(--teal)">${e[0]}</div><h4 class="font-medium mt-1">${e[1]}</h4><p class="text-sm mt-1" style="color:var(--ink-soft)">${e[2]}</p></div>`).join('');
+
+const comps=["Geological Mapping","Mineral Exploration","Opencast Mining","Mine Administration & Management","Geo-scientific Research","Resource & Team Management","Procurement (Goods & Consulting)","Public Service Delivery — Mines & Minerals"];
+$('#compGrid').innerHTML=comps.map(c=>`<div class="card rounded-lg p-4 text-sm font-medium reveal">${c}</div>`).join('');
+
+const projects=[
+{t:"Stream-sediment metal exploration survey",tag:"Exploration",d:"Regional metal exploration programme using systematic stream-sediment sampling to target anomalies for follow-up mapping."},
+{t:"Oolitic iron ore feasibility study",tag:"Mining",d:"Pre-feasibility study of a low-grade ooidal ironstone deposit, assessing grade, extent and extraction viability."},
+{t:"Dhaubadi opencast mining operations",tag:"Mining",d:"Operational and administrative oversight of opencast iron mining, including resource planning and procurement."},
+{t:"Lesser Himalaya tectonics (PhD research)",tag:"Research",d:"Detrital zircon geochronology and provenance study reconstructing Early Cretaceous rifting of the northern Indian craton margin."},
+{t:"Geological mapping, Mid-Hills Nepal",tag:"Mapping",d:"Field geological mapping and structural analysis supporting regional stratigraphic interpretation."}
+];
+const filters=["All",...new Set(projects.map(p=>p.tag))];
+$('#projFilters').innerHTML=filters.map((f,i)=>`<button class="tag px-3 py-1 rounded-full ${i===0?'active':''}" data-f="${f}">${f}</button>`).join('');
+
+let activeFilter="All";
+function renderProjects(){
+  const q=$('#projSearch').value.toLowerCase();
+  const items=projects.filter(p=>(activeFilter==="All"||p.tag===activeFilter)&&(p.t.toLowerCase().includes(q)||p.d.toLowerCase().includes(q)));
+  $('#projGrid').innerHTML=items.map((p,idx)=>`<div class="card rounded-lg p-5" data-i="${projects.indexOf(p)}"><span class="tag inline-block px-2 py-0.5 rounded-full mb-2">${p.tag}</span><h4 class="font-medium">${p.t}</h4><p class="text-sm mt-2" style="color:var(--ink-soft)">${p.d}</p></div>`).join('') || `<p style="color:var(--ink-soft)">No projects match your search.</p>`;
+}
+renderProjects();
+$$('#projFilters .tag').forEach(b=>b.onclick=()=>{activeFilter=b.dataset.f; $$('#projFilters .tag').forEach(x=>x.classList.remove('active')); b.classList.add('active'); renderProjects();});
+$('#projSearch').oninput=renderProjects;
+
+const pubs=[
+{y:"2019",cite:"Bhandari, S., Xiao, W.J., Ao, S., Windley, B.F., Zhang, R., Li, R., Wang, H.Y.C., Esmaeili, R. Rifting of the northern margin of the Indian craton in the Early Cretaceous: insight from the Aulis Trachyte of the Lesser Himalaya (Nepal).",j:"Lithosphere, L1048"},
+{y:"2018",cite:"Bhandari, S., Xiao, W., Ao, S., Windley, B.F., Li, R., Esmaeili, R., Liu, Y. Detrital geochronology of the Gondwana sequence of the Lesser Himalaya of the Nepal Himalaya.",j:"Geological Journal"},
+{y:"2020",cite:"Esmaeili, R., Xiao, W., Griffin, W.L., Moghadam, H.S., Zhang, Z., Ebrahimi, M., et al. Reconstructing the source and growth of the Makran accretionary complex: constraints from detrital zircon U-Pb geochronology.",j:"Tectonics, 39, e2019TC005963",doi:"10.1029/2019TC005963"},
+{y:"2021",cite:"Esmaeili, R., Ao, S., Moghadam, H.S., Zhang, Z., Griffin, W.L., Ebrahimi, M., Xiao, W., Wan, B., Bhandari, S. Amphibolites from Makran accretionary complex record Permian–Triassic Neo-Tethyan evolution.",j:"International Geology Review",doi:"10.1080/00206814.2021.1946663"},
+{y:"2021",cite:"Li, R., Ao, S., Xiao, W., et al. Tectonic setting and provenance of Early Cretaceous strata in the footwall of Main Central Thrust, Eastern Nepal: implications for the archipelago palaeogeography of the Neo-Tethys.",j:"Geological Journal, 56, 1958–1973",doi:"10.1002/gj.4035"}
+];
+function renderPubs(){
+  const q=$('#pubSearch').value.toLowerCase();
+  const items=pubs.filter(p=>p.cite.toLowerCase().includes(q)||p.j.toLowerCase().includes(q)||p.y.includes(q));
+  $('#pubList').innerHTML=items.map(p=>`<div class="card rounded-lg p-5"><span class="mono text-xs" style="color:var(--teal)">${p.y}</span><p class="mt-1">${p.cite}</p><p class="text-sm mt-1 italic" style="color:var(--ink-soft)">${p.j}</p>${p.doi?`<a class="text-sm underline" style="color:var(--accent)" target="_blank" rel="noopener" href="https://doi.org/${p.doi}">doi.org/${p.doi}</a>`:''}</div>`).join('') || `<p style="color:var(--ink-soft)">No publications match your search.</p>`;
+}
+renderPubs(); $('#pubSearch').oninput=renderPubs;
+
+const awards=["Life member, Nepal Geological Society (NGS)","Nepal Bidhyabhusan \u201cKha\u201d","Merit Scholarship 2008 & 2009, Naomura Education Foundation Japan (B.Sc. Geology)","2019 Excellent International Student, Chinese Academy of Sciences, Beijing"];
+$('#awardList').innerHTML=awards.map(a=>`<li class="flex gap-2"><span style="color:var(--accent)">★</span><span>${a}</span></li>`).join('');
+const trainings=["Professional Course on Management and Development — Nepal Administrative Staff College","Procurement of Consulting Services and Goods — Institute of Professional Training and Management, Nepal","ISO 17025:2017 — Department of Mines and Geology"];
+$('#trainList').innerHTML=trainings.map(a=>`<li class="flex gap-2"><span style="color:var(--teal)">▸</span><span>${a}</span></li>`).join('');
+
+/* Add a third item (image path/URL) to show a real photo, e.g. ["🏔️","Fieldwork","img/field1.jpg"] */
+const gallery=[["🏔️","Fieldwork — Lesser Himalaya"],["⛏️","Opencast mine site, Dhaubadi"],["🔬","Lab analysis, CAS Beijing"],["🗺️","Geological mapping campaign"],["🧭","Structural measurements"],["🪨","Sample logging"],["👥","Research team, Nepal Himalaya"],["🎓","Conference presentation"]];
+$('#galleryGrid').innerHTML=gallery.map((g,i)=>`<button class="card rounded-lg aspect-square grid place-items-center text-4xl reveal overflow-hidden" data-i="${i}" aria-label="View: ${g[1]}">${g[2]?`<img src="${g[2]}" alt="${g[1]}" loading="lazy" class="w-full h-full object-cover">`:g[0]}</button>`).join('');
+$('#galleryGrid').addEventListener('click',e=>{const b=e.target.closest('button'); if(!b) return; const g=gallery[b.dataset.i]; $('#lbContent').innerHTML=`${g[2]?`<img src="${g[2]}" alt="${g[1]}" class="mx-auto max-h-[70vh] rounded mb-4">`:`<div class="text-8xl mb-4">${g[0]}</div>`}<p class="text-white">${g[1]}</p>`; $('#lightbox').classList.remove('hidden');});
+$('#lbClose').onclick=()=>$('#lightbox').classList.add('hidden');
+$('#lightbox').addEventListener('click',e=>{if(e.target.id==='lightbox') $('#lightbox').classList.add('hidden');});
+addEventListener('keydown',e=>{if(e.key==='Escape') $('#lightbox').classList.add('hidden');});
+
+const socials=[["LinkedIn",CONFIG.linkedin],["ResearchGate",CONFIG.researchgate],["Email",isSet(CONFIG.email)?'mailto:'+CONFIG.email:'']].filter(s=>isSet(s[1].replace(/^mailto:/,'')));
+if(isSet(CONFIG.email)){$('#emailLink').href='mailto:'+CONFIG.email; $('#emailLink').textContent=CONFIG.email;} else {$('#emailLink').parentElement.style.display='none';}
+$('#socialLinks').innerHTML=socials.map(s=>`<a href="${s[1]}" class="underline" target="_blank" rel="noopener">${s[0]}</a>`).join('');
+
+$('#contactForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  if(!isSet(CONFIG.email)){$('#cfStatus').textContent="Contact email isn't configured yet."; return;}
+  const n=$('#cfName').value, f=$('#cfEmail').value, m=$('#cfMsg').value;
+  location.href='mailto:'+CONFIG.email+'?subject='+encodeURIComponent('Website enquiry from '+n)+'&body='+encodeURIComponent(m+'\n\n— '+n+' ('+f+')');
+  $('#cfStatus').textContent="Opening your email app…";
+});
+
+/* ---------- SCROLL EFFECTS ---------- */
+const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){en.target.classList.add('in'); io.unobserve(en.target);}}),{threshold:.05});
+$$('.reveal, .card, .tl-item').forEach(el=>{el.classList.add('reveal'); io.observe(el);});
+
+const barIO=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){en.target.style.width=en.target.dataset.w+'%'; barIO.unobserve(en.target);}}),{threshold:.5});
+$$('.bar-fill').forEach(b=>barIO.observe(b));
+
+addEventListener('hashchange',()=>showTab(location.hash.slice(1)||'home'));
+</script>
+</body>
+</html>
